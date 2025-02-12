@@ -30,18 +30,20 @@ body {
 
 /* Header */
 header {
-    background: rgba(255, 255, 255, 0.95);
-    padding: 15px 0;
+    background: rgba(12, 0, 0, 0.95);
+    padding: 8px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .logo {
-    width: 180px;
+    width: 150px;
     transition: var(--transition);
 }
 
